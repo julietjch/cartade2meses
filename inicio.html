@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gloton hermoso</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card" onclick="openCard()">
+            <div class="front">
+                <h1> 2 meses </h1>
+            </div>
+            <div class="inside">
+                <p>gloton hermoso</p>
+                <p>Me alegra mucho compartir mi vida contigo.</p>
+                <p>Con todo mi amor,</p>
+                <p>Tu pareja jejejej </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openCard() {
+            document.querySelector('.card').classList.toggle('open');
+        }
+    </script>
+</body>
+</html>
